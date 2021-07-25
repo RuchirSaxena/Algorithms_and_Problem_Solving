@@ -1,0 +1,51 @@
+Q. Define an Algotithm
+A. A process or set of certains steps to solve a problem
+   Almost everything that you do in programming involves Algotithms
+
+Q. How do you Improve at Algotithm?
+A. Devise a plan for problem solving
+   Master common problems solving patterns
+
+Q. Problem Solving Approach
+A. 1.Understand a problem
+   2.Explore concrete examples
+   3.Break it down
+   4.Solve/Simplify
+   5.Look Back and Refactor
+
+Q.Understand a problem
+A. Ask yourself below set of questions  
+1. Can I restate the problem in my own word ?
+2. What are the inputs that go into problem ?
+3. What are the outputs that should come from the sollution of the problem ?
+4. Can the outputs be determined from the inputs? In other words, do I have enough informationto     solve the problem ?
+5. How should I label the importatnt pieces of the data that are a part of problem ?
+    
+E.g. Problem Statement
+     Write a problem that takes 2 nos and returns the addition of those nummbers
+
+let's try this problem with above checklist in the mind 
+1. Can I restate the problem in my own word ?
+So basicaaly we need to add 2 nos and return the addition
+
+2. What are the inputs that go into problem ?
+So the inputs are nummbers, if not the should we thorwn an exception or if its nos/\. in form of string, should we convert them to nos and then calculate ?
+will the inputs will always be nummbers ?
+can we have more than 2 inputs and what should happen in that scenario , should we consider first 2 nos only ?
+what if there is only a single num passed, should we return that no. or should we throw an error ?
+id the size of no. define or it can be on any length ? if there are large nos should we use string addtion ?
+
+3.What are the outputs that should come from the sollution of the problem ?
+Is the expected output shoud be no. ? or it can be a string to support long nos scenarios as we cannot add any length in javascript as it will give infinity
+
+4.Can the outputs be determined from the inputs? In other words, do I have enough informationto     solve the problem ?
+If the input is no. , should the output be no. also ? if there are no input shoud we return error or 0
+
+5. How should I label the importatnt pieces of the data that are a part of problem ?
+since these is a small problem so we can just confirm on the type of inputs
+
+
+
+
+
+
